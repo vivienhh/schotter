@@ -27,14 +27,14 @@ import random
 COLS = 20            # squares across
 ROWS = 50            # squares down — the chaos builds over this many rows
 SEED = 5913          # any integer. Same seed = same image, every time, forever.
-CHAOS = 0.5           # how fast order collapses. 0 = perfect grid. 2 = rubble.
+CHAOS = 1.8           # how fast order collapses. 0 = perfect grid. 2 = rubble.
 SQUARE = 10          # size of one square, in svg units
 MARGIN = 9          # breathing room around the grid
-STROKE = "#1500FF"   # line colour
-BACKGROUND = "#faf8f4"
+STROKE = "#FFFFFF"   # line colour
+BACKGROUND = "#111010"
 STROKE_WIDTH = 1.4
 
-OUTPUT = "sketch2.svg"
+OUTPUT = "sketch3.svg"
 
 # ---------------------------------------------------------------------------
 # The drawing.
